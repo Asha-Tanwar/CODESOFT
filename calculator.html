@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>CALCULATOR</title>
+  <link rel="stylesheet" href="calci.css">
+</head>
+<body>
+  <div class="calc">
+    <input type="text" id="display" class ="calc-display" disabled>
+    <div class="calc-buttons">
+      <button class="button" onclick="cleardisplay()">clear</button>
+      <button class="button" onclick="deletedisplay()">delete</button>
+      <button class="button" onclick="todisplay('/')">÷</button>
+      <button class="button" onclick="todisplay('*')">x</button>
+      <button class="button" onclick="todisplay('7')">7</button>
+      <button class="button" onclick="todisplay('8')">8</button>
+      <button class="button" onclick="todisplay('9')">9</button>
+      <button class="button" onclick="todisplay('-')">-</button>
+      <button class="button" onclick="todisplay('4')">4</button>
+      <button class="button" onclick="todisplay('5')">5</button>
+      <button class="button" onclick="todisplay('6')">6</button>
+      <button class="button" onclick="todisplay('+')">+</button>
+      <button class="button" onclick="todisplay('1')">1</button>
+      <button class="button" onclick="todisplay('2')">2</button>
+      <button class="button" onclick="todisplay('3')">3</button>
+      <button class="button" onclick="result('=')">=</button>
+      <button class="button" onclick="todisplay('0')">0</button>
+      <button class="button" onclick="todisplay('.')">.</button>
+    </div>
+    <h2>&copy; Digital Calc by Asha Kanwar</h2>
+  </div>
+  <script src="calci.js"></script>
+</body>
+</html>
